@@ -7,7 +7,7 @@ how to generate webapp project
 1.generate project struct
 
 ```
-mvn archetype:create -DgroupId=com.cssrc.study.maven -DartifactId=simple-web -DpackageName=com.cssrc.study.maven -DarchetypeArtifactId=maven-archetype-webapp
+mvn archetype:generate -DgroupId=com.cssrc.study.maven -DartifactId=simple-web -DpackageName=com.cssrc.study.maven -DarchetypeArtifactId=maven-archetype-webapp
 ```
 
 2.set jetty plugin
